@@ -1,7 +1,12 @@
 import { APIItemTitle } from "@/components/APIItemTitle";
 import { CopyPastableSpan } from "@/components/CopyPastableSpan";
 import { PageNavSmall } from "@/components/PageNavSmall";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Utils",
+};
 
 const Utils = () => {
   return (

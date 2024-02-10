@@ -2,13 +2,9 @@ import React from "react";
 import { APIItemTitle } from "./APIItemTitle";
 import { CopyPastableSpan } from "./CopyPastableSpan";
 import { CodeBlockWrapper } from "./CodeBlockWrapper";
-import {
-  BUSINESS_SHORT_CODE,
-  QRCodeDisplay,
-  ScannableQrParams,
-} from "react-daraja";
+import { QRCodeDisplay, ScannableQrParams } from "react-daraja";
 
-export const QrCode = () => {
+export const QrCode = async () => {
   const nextJSCodeExample = `
     import React from "react";
     import { QRCodeDisplay } from "react-daraja";
@@ -43,7 +39,6 @@ export const QrCode = () => {
     export const GET = async (req: NextRequest, res: NextResponse) => {
       const scannableQRParams: ScannableQrParams = {
         Amount: 100,
-        CPI: BUSINESS_SHORT_CODE,
         MerchantName: "KISS KISS Adventures",
         RefNo: "Your REF NO",
         Size: "100", //square pixels,
@@ -106,7 +101,6 @@ export const QrCode = () => {
 
   const qrCodeParams: ScannableQrParams = {
     Amount: 100,
-    CPI: BUSINESS_SHORT_CODE,
     MerchantName: "React daraja docs",
     RefNo: "REF100",
     Size: "100",
@@ -122,15 +116,15 @@ export const QrCode = () => {
         the library to display a QRcode on your website that people will scan to
         pay. Example
       </p>
-      <p className="mt-5">
-        Here is an example of a qrcode created by the library in NextJS.{" "}
+      {/* <p className="mt-5">
+        Here is an example of a QRcode created by the library in NextJS.{" "}
         <span className="italic text-sm">
           PS: I used the library to generate the QRCode
         </span>
       </p>
       <div className="w-[100px] aspect-square mt-5 mx-auto">
         <QRCodeDisplay scannableQRParams={qrCodeParams} />
-      </div>
+      </div> */}
       <CodeBlockWrapper code={nextJSCodeExample} />
       <div className="mt-5">
         Now if you use vanilla react i.e create-react-app or vite maybe you can
