@@ -15,7 +15,7 @@ const Utils = () => {
       <h1 id="installation">Utilities</h1>
       <p className="mt-5">
         We understand that migrating is hard :). For this purpose the library
-        offers some functions to help you easily integrate react-daraja to your
+        offers some functions to help you easily integrate daraja-kit to your
         app while still enjoying the stability of your existing code.
       </p>
       <section>
@@ -23,7 +23,7 @@ const Utils = () => {
         <p className="mt-5">
           The lib offers a <CopyPastableSpan text="generateAccessToken" />{" "}
           function that helps give you accurate non-expired access tokens with
-          all the advantages of react-daraja built in!
+          all the advantages of daraja-kit built in!
         </p>
       </section>
       <section>

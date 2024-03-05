@@ -2,14 +2,14 @@ import React from "react";
 import { APIItemTitle } from "./APIItemTitle";
 import { CopyPastableSpan } from "./CopyPastableSpan";
 import { CodeBlockWrapper } from "./CodeBlockWrapper";
-import { QRCodeDisplay, ScannableQrParams } from "react-daraja";
+import { QRCodeDisplay, ScannableQrParams } from "daraja-kit";
 
 export const QrCode = async () => {
   const nextJSCodeExample = `
     import React from "react";
-    import { QRCodeDisplay } from "react-daraja";
-    import { ScannableQrParams } from "react-daraja";
-    import { BUSINESS_SHORT_CODE } from "react-daraja";
+    import { QRCodeDisplay } from "daraja-kit";
+    import { ScannableQrParams } from "daraja-kit";
+    import { BUSINESS_SHORT_CODE } from "daraja-kit";
 
     export const QRCodeExample = () => {
       
@@ -32,9 +32,9 @@ export const QrCode = async () => {
 
   const backendQRCode = `
     import { NextRequest, NextResponse } from "next/server";
-    import { fetchQrCode } from "react-daraja";
-    import { BUSINESS_SHORT_CODE } from "react-daraja";
-    import { ScannableQrParams } from "react-daraja";
+    import { fetchQrCode } from "daraja-kit";
+    import { BUSINESS_SHORT_CODE } from "daraja-kit";
+    import { ScannableQrParams } from "daraja-kit";
 
     export const GET = async (req: NextRequest, res: NextResponse) => {
       const scannableQRParams: ScannableQrParams = {
@@ -67,7 +67,7 @@ export const QrCode = async () => {
 
   const frontendVanillaReactCode = `
     import React, { useEffect, useState } from "react";
-    import { QRCodeDisplayReact } from "react-daraja";
+    import { QRCodeDisplayReact } from "daraja-kit";
     import axios from "axios";
 
     const VanillaReactQRCodeExample = () => {
@@ -137,8 +137,7 @@ export const QrCode = async () => {
       <p className="mt-5">
         After fetching your QRCode in your backend you can then use the{" "}
         <CopyPastableSpan text="QRCodeDisplayReact" /> from{" "}
-        <CopyPastableSpan text="react-daraja" /> to display your QRCode .
-        Example
+        <CopyPastableSpan text="daraja-kit" /> to display your QRCode . Example
       </p>
       <CodeBlockWrapper code={frontendVanillaReactCode} />
       <p className="mt-5">

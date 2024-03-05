@@ -89,7 +89,7 @@ const Page = () => {
         <p className="text-myPurple font-semibold">On this page</p>
         {links.map((l) => (
           <a
-            href={`https://react-daraja.vercel.app/installation#${l}`}
+            href={`https://daraja-kit.vercel.app/installation#${l}`}
             className="bg-gray-100 text-sm font-semibold px-2 hover:text-myPurple ml-2 overflow-clip"
             key={l}
           >

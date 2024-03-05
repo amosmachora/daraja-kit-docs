@@ -13,7 +13,7 @@ export const Nav = () => {
         <p className="font-semibold text-sm">React Daraja Docs</p>
       </Link>
       <a
-        href="https://github.com/amosmachora/react-daraja"
+        href="https://github.com/amosmachora/daraja-kit"
         className="font-semibold hover:text-myPurple"
         target="_blank"
         rel="noopener noreferrer"

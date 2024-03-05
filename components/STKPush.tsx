@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const STKPush = () => {
   const code = `
-      import { stkPushRequest , STKPushRequestParam} from "react-daraja";
+      import { stkPushRequest , STKPushRequestParam} from "daraja-kit";
 
       const myReqObj:STKPushRequestParam = {
         phoneNumber: "254719428019",
@@ -30,7 +30,7 @@ export const STKPush = () => {
   `;
 
   const callBackCode = `
-      import { STKPushErrorCallbackBody, STKPushSuccessfulCallbackBody} from "react-daraja";
+      import { STKPushErrorCallbackBody, STKPushSuccessfulCallbackBody} from "daraja-kit";
       import { NextRequest, NextResponse } from "next/server";
       
       const POST = async (req: NextRequest, res: NextResponse) => {

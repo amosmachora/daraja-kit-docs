@@ -12,11 +12,11 @@ export const InstallCommands = () => {
   const command = (() => {
     switch (activeTab) {
       case "pnpm":
-        return "pnpm add react-daraja";
+        return "pnpm add daraja-kit";
       case "yarn":
-        return "yarn add react-daraja";
+        return "yarn add daraja-kit";
       default:
-        return "npm install react-daraja";
+        return "npm install daraja-kit";
     }
   })();
 

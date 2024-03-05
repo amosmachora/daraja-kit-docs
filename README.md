@@ -1,6 +1,6 @@
 # React Daraja Docs
 
-The official documentation website of the [React Daraja library](https://github.com/amosmachora/react-daraja).
+The official documentation website of the [React Daraja library](https://github.com/amosmachora/daraja-kit).
 
 ![image info](./public/full-logo.png)
 

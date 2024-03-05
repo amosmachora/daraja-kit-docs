@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   description:
     "React Daraja is a typesafe Javascript library designed to simplify interactions with the Safaricom Daraja API, specifically for STK push requests. This library is suitable for both Node.js and React environments, allowing developers to seamlessly integrate M-Pesa payments into their applications.",
   twitter: {
-    images: ["https://react-daraja.vercel.app/ross.jpeg"],
+    images: ["https://daraja-kit.vercel.app/ross.jpeg"],
   },
   openGraph: {
-    images: ["https://react-daraja.vercel.app/ross.jpeg"],
+    images: ["https://daraja-kit.vercel.app/ross.jpeg"],
   },
-  metadataBase: new URL("https://react-daraja.vercel.app"),
+  metadataBase: new URL("https://daraja-kit.vercel.app"),
 };
 
 export default function RootLayout({
