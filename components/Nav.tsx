@@ -10,7 +10,7 @@ export const Nav = () => {
     <nav className="flex items-center px-6 justify-between border-b-2 py-3 h-[8%]">
       <Link href="/" className="flex gap-x-3 items-center">
         <Image src={logo} alt="logo" className="h-10 w-10 object-cover" />
-        <p className="font-semibold text-sm">React Daraja Docs</p>
+        <p className="font-semibold text-sm">Daraja Kit Docs</p>
       </Link>
       <a
         href="https://github.com/amosmachora/daraja-kit"
