@@ -71,7 +71,7 @@ const Page = () => {
               <FontAwesomeIcon icon={faCircleInfo} />
               <p className="font-semibold text-base">INFO</p>
             </div>
-            React Daraja has a peer dependency on React 18. If you use the node
+            Daraja Kit has a peer dependency on React 18. If you use the node
             apis you don`t need to have react installed.
           </div>
         </div>

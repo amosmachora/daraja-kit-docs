@@ -15,7 +15,7 @@ export const QrCode = async () => {
       
       const qrCodeParams: ScannableQrParams = {
         Amount: 100,
-        MerchantName: "React daraja docs",
+        MerchantName: "Daraja Kit docs",
         RefNo: "REF100",
         Size: "100",
         TrxCode: "PB",
@@ -101,7 +101,7 @@ export const QrCode = async () => {
 
   const qrCodeParams: ScannableQrParams = {
     Amount: 100,
-    MerchantName: "React daraja docs",
+    MerchantName: "Daraja Kit docs",
     RefNo: "REF100",
     Size: "100",
     TrxCode: "PB",

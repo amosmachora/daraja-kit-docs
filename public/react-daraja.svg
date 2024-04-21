@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
-   sodipodi:docname="react-daraja.svg"
+   sodipodi:docname="daraja-kit.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -165,7 +165,7 @@
        x="-74.615517"
        y="" /><g
        id="g85"
-       inkscape:export-filename="../made-with-abisma/git-clones/react-daraja/docs-app/app/Logo.png"
+       inkscape:export-filename="../made-with-abisma/git-clones/daraja-kit/docs-app/app/Logo.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><ellipse
          style="mix-blend-mode:normal;fill:url(#radialGradient10);fill-opacity:1;stroke:none;stroke-width:1.97488;filter:url(#filter12)"
@@ -174,7 +174,7 @@
          cy="127.87841"
          rx="14.776667"
          ry="15.058142"
-         inkscape:export-filename="../made-with-abisma/git-clones/react-daraja/docs-app/app/favicon.ico"
+         inkscape:export-filename="../made-with-abisma/git-clones/daraja-kit/docs-app/app/favicon.ico"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96" /><path
          style="fill:url(#linearGradient75);fill-opacity:1;stroke:none;stroke-width:1.32292;stroke-dasharray:none;stroke-opacity:1"
@@ -381,4 +381,4 @@
          y="588.99456"
          id="tspan6"><tspan
            style="font-family:Kallem;-inkscape-font-specification:Kallem"
-           id="tspan5">React Daraja</tspan></tspan></text></g></svg>
+           id="tspan5">Daraja Kit</tspan></tspan></text></g></svg>

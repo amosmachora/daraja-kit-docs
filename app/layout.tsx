@@ -10,9 +10,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: { template: "%s | React Daraja Docs", default: "React Daraja Docs" },
+  title: { template: "%s | Daraja Kit Docs", default: "Daraja Kit Docs" },
   description:
-    "React Daraja is a typesafe Javascript library designed to simplify interactions with the Safaricom Daraja API, specifically for STK push requests. This library is suitable for both Node.js and React environments, allowing developers to seamlessly integrate M-Pesa payments into their applications.",
+    "Daraja Kit is a typesafe Javascript library designed to simplify interactions with the Safaricom Daraja API, specifically for STK push requests. This library is suitable for both Node.js and React environments, allowing developers to seamlessly integrate M-Pesa payments into their applications.",
   twitter: {
     images: ["https://daraja-kit.vercel.app/ross.jpeg"],
   },
